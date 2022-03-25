@@ -1,11 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    title: `Cariadmin`,
+    description: `Solusi mudah setiap masalah admin marketplace dan toko online. Cari admin marketplace, admin sosial media, admin website sampai admin balas chat.`,
+    author: `@cariadmin`,
+    siteUrl: `https://cariadmin.com/`,
   },
   plugins: [
+    "gatsby-plugin-postcss",
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     {
@@ -20,8 +21,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `cariadmin-website`,
+        short_name: `cariadmin`,
         start_url: `/`,
         background_color: `#663399`,
         // This will impact how browsers show your PWA/website

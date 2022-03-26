@@ -26,7 +26,7 @@ const Layout = ({ children }) => {
     <>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
-        <main>{children}</main>
+        <main className="py-10">{children}</main>
         
         <footer>
           © {new Date().getFullYear()}, Built with

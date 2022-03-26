@@ -7,8 +7,17 @@ module.exports = {
   },
   plugins: [
     "gatsby-plugin-postcss",
+    'gatsby-plugin-scroll-reveal',
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
+    {
+      resolve: 'gatsby-plugin-web-font-loader',
+      options: {
+        google: {
+          families: ['DM Sans']
+        }
+      }
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -17,7 +26,15 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-plugin-sharp`,
+      options: {
+        defaults: {
+          formats: [`auto`, `webp`],
+          placeholder: `blurred`,
+        }
+      }
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

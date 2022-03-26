@@ -158,7 +158,11 @@ const Header = ({ siteTitle }) => (
             <div className="pt-5 pb-6 px-5">
               <div className="flex items-center justify-between">
                 <div>
-                  <span className="text-2xl font-bold text-blue-600">Cariadmin</span>
+                <StaticImage
+                  src="../images/cariadmin-logo.png"
+                  width={150}
+                  alt="Cariadmin Icon"
+                />
                 </div>
                 <div className="-mr-2">
                   <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500">
@@ -190,7 +194,7 @@ const Header = ({ siteTitle }) => (
               <div>
                 <a
                   href="/"
-                  className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-lg shadow-blue-500 text-base font-medium text-white bg-blue-600 hover:bg-blue-700"
+                  className="w-full flex items-center justify-center px-4 py-2 rounded-full shadow-lg bg-gradient-to-r text-white font-medium from-indigo-600 to-blue-500 hover:shadow-blue-500 transition duration-1000 ease-out"
                 >
                   Cari Admin Professional
                 </a>

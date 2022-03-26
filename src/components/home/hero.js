@@ -3,10 +3,10 @@ import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
 const HeroHome = () => (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 pt-12 pb-48">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 pt-0 lg:pt-12 pb-48">
         <div className="flex flex-wrap items-center">
             <div 
-                className="w-full lg:w-1/2 md:pr-10 mb-12 lg:mb-0"
+                className="w-full lg:w-1/2 md:pr-10 mb-20 lg:mb-0"
                 data-sal="slide-up"
                 data-sal-duration="1000"
                 data-sal-delay="100"

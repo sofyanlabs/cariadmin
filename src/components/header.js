@@ -53,7 +53,7 @@ function classNames(...classes) {
 const Header = ({ siteTitle }) => (
   <Popover className="relative bg-white" as="header">
     <div className="max-w-7xl mx-auto px-4 sm:px-6">
-      <div className="flex justify-between items-center py-12 md:space-x-10">
+      <div className="flex justify-between items-center pt-4 pb-12 lg:py-12 md:space-x-10">
         <div className="flex justify-start lg:w-0 lg:flex-1">
           <Link to="/">
             <span className="sr-only">{siteTitle}</span>

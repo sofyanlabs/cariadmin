@@ -2,7 +2,7 @@ import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 
 const AboutHome = () => (
-    <section className="max-w-7xl mx-auto px-4 sm:px-6">
+    <section className="max-w-7xl mx-auto px-4 sm:px-6 pb-24 lg:pb-48">
       <div className="bg-blue-50 pt-16 px-4 rounded-5xl">
         <div className="max-w-2xl mx-auto text-center">
           <div

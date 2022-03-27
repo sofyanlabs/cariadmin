@@ -16,9 +16,9 @@ const AboutHome = () => (
             <p className="text-base md:text-xl md:px-8">Kami akan memberikanmu admin yang professional di bidangnya. Pilihan admin yang tepat akan sangat meningkatkan kinerja pada bisnis online yang kamu miliki.</p>
           </div>
           <div
-            data-sal="slide-up"
-            data-sal-duration="800"
-            data-sal-delay="800"
+            data-sal="slide-left"
+            data-sal-duration="1000"
+            data-sal-delay="300"
           >
             <StaticImage 
               src="../../images/about-person.png"

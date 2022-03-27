@@ -25,7 +25,7 @@ const HeroHome = () => (
                 <div className="relative">
                     <div className="text-center"
                         data-sal="zoom-in"
-                        data-sal-duration="500"
+                        data-sal-duration="1000"
                         data-sal-delay="300"
                     >
                     <StaticImage 
@@ -36,7 +36,7 @@ const HeroHome = () => (
                     </div>
                     <div className="absolute m-auto bottom-0 right-0 w-4/5"
                         data-sal="slide-left"
-                        data-sal-duration="800"
+                        data-sal-duration="1000"
                         data-sal-delay="800"
                     >
                     <StaticImage 

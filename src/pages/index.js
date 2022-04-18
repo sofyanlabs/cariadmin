@@ -4,6 +4,8 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Hero from "../components/home/hero"
 import About from "../components/home/about"
+import Service from "../components/home/service"
+import WhyHome from "../components/home/why"
 
 const IndexPage = () => (
   <Layout>
@@ -13,6 +15,8 @@ const IndexPage = () => (
     
     <Hero />
     <About />
+    <Service />
+    <WhyHome />
   </Layout>
 )
 

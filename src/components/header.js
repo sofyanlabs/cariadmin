@@ -194,7 +194,7 @@ const Header = ({ siteTitle }) => (
               <div>
                 <a
                   href="/"
-                  className="w-full flex items-center justify-center px-4 py-2 rounded-lg shadow-lg bg-gradient-to-r shadow-blue-500 text-white font-medium from-indigo-600 to-blue-500 hover:shadow-indigo-500 transition duration-1000 ease-out"
+                  className="w-full flex items-center justify-center px-4 py-2 rounded-lg shadow-lg shadow-blue-500 text-white font-medium bg-blue-500"
                 >
                   Cari Admin Professional
                 </a>

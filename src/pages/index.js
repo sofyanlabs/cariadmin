@@ -5,7 +5,8 @@ import Seo from "../components/seo"
 import Hero from "../components/home/hero"
 import About from "../components/home/about"
 import Service from "../components/home/service"
-import WhyHome from "../components/home/why"
+import Why from "../components/home/why"
+import Testimonial from "../components/home/testimonial"
 
 const IndexPage = () => (
   <Layout>
@@ -16,7 +17,8 @@ const IndexPage = () => (
     <Hero />
     <About />
     <Service />
-    <WhyHome />
+    <Why />
+    <Testimonial />
   </Layout>
 )
 

@@ -11,7 +11,7 @@ import Testimonial from "../components/home/testimonial"
 const IndexPage = () => (
   <Layout>
     <Seo 
-      title="Home"
+      title="Layanan Admin Profesional untuk Bisnis Online"
     />
     
     <Hero />

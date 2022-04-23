@@ -94,7 +94,7 @@ const Layout = ({ children }) => {
               </ul>
             </div>
           </div>
-          <div className="border-t pt-4 text-center mt-8">
+          <div className="border-t pt-4 text-center mt-12">
             <span className="text-gray-500">Copyright © 2022 Cariadmin Indonesia</span>
           </div>
         </footer>

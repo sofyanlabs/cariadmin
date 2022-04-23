@@ -9,7 +9,6 @@ import {
   CameraIcon,
   GlobeAltIcon,
   MenuIcon,
-  PhoneIcon,
   PresentationChartLineIcon,
   ShoppingBagIcon,
   SparklesIcon,
@@ -53,10 +52,6 @@ const layanan = [
     href: '/',
     icon: CameraIcon,
   },
-]
-
-const callsToAction = [
-  { name: 'Konsultasi Bisnis', href: '#', icon: PhoneIcon },
 ]
 
 function classNames(...classes) {
@@ -105,14 +100,14 @@ export default function Header ({ siteTitle })
                   <>
                     <Popover.Button
                       className={classNames(
-                        open ? 'text-gray-900' : 'text-gray-600',
+                        open ? 'text-gray-900' : 'text-gray-800',
                         'group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:text-blue-600'
                       )}
                     >
                       <span className="text-lg">Layanan</span>
                       <ChevronDownIcon
                         className={classNames(
-                          open ? 'text-gray-900' : 'text-gray-600',
+                          open ? 'text-gray-900' : 'text-gray-800',
                           'ml-2 h-6 w-6 group-focus:text-blue-600'
                         )}
                         aria-hidden="true"

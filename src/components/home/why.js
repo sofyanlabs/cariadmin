@@ -5,7 +5,7 @@ import {
   } from '@heroicons/react/solid'
 
 const WhyHome = () => (
-    <section className="max-w-7xl mx-auto px-4 sm:px-6 py-12 lg:py-20">
+    <section className="max-w-7xl mx-auto px-4 sm:px-6 py-8 lg:py-12">
       <div
       data-sal="fade"
       data-sal-duration="1000"
@@ -19,7 +19,7 @@ const WhyHome = () => (
             data-sal-delay="300"
           >
             <span className="block font-bold text-md md:text-xl text-blue-600">Keuntungan</span>
-            <h2 className="font-bold text-xl md:text-3xl py-6 !leading-relaxed text-gray-800"><span className="underline underline-offset-8 decoration-blue-600">#BangunBersama</span> admin profesional Cariadmin</h2>
+            <h2 className="font-bold text-xl md:text-3xl py-4 !leading-relaxed text-gray-800"><span className="underline underline-offset-8 decoration-blue-600">#BangunBersama</span> Admin Profesional Cariadmin</h2>
             <p className="text-base text-gray-600 md:text-xl md:px-8">Cariadmin merupakan layanan admin professional terlengkap yang memberikan kemudahan dalam pengembangan bisnis online dengan biaya yang terjangkau.</p>
           </div> 
         </div>

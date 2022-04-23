@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
 const HeroHome = () => (
-    <section className="max-w-7xl mx-auto px-4 sm:px-6 pt-0 py-12 lg:py-20">
+    <section className="max-w-7xl mx-auto px-4 sm:px-6 pt-0 py-8 lg:py-32">
         <div className="flex flex-wrap items-center">
             <div 
                 className="w-full lg:w-1/2 md:pr-10 mb-20 lg:mb-0"

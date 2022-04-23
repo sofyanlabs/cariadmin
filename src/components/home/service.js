@@ -63,16 +63,16 @@ const services = [
 ]
 
 const ServiceHome = () => (
-  <section className="max-w-7xl mx-auto px-4 sm:px-6 py-12 lg:py-20">
-    <div className="max-w-2xl mx-auto text-center lg:pb-8">
+  <section className="max-w-7xl mx-auto px-4 sm:px-6 py-8 lg:py-12">
+    <div className="max-w-2xl mx-auto text-center">
       <div
-        className="pb-8"
+        className="pb-12"
         data-sal="slide-up"
         data-sal-duration="1000"
         data-sal-delay="100"
       >
         <span className="block font-bold text-md md:text-xl text-blue-600">Solusi Bisnis Online</span>
-        <h2 className="font-bold text-xl md:text-3xl py-6 !leading-relaxed text-gray-800">Pilihan berbagai layanan terlengkap dan terbaik untuk <span className="underline underline-offset-8 decoration-blue-600">solusi dalam masalah bisnis online</span></h2>
+        <h2 className="font-bold text-xl md:text-3xl py-4 !leading-relaxed text-gray-800">Pilihan Layanan Terlengkap dan Terbaik untuk <span className="underline underline-offset-8 decoration-blue-600">Solusi Masalah Bisnis Online</span></h2>
       </div>
     </div>
 

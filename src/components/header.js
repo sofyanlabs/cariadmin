@@ -10,7 +10,6 @@ import {
   CursorClickIcon,
   MenuIcon,
   PhoneIcon,
-  PlayIcon,
   ShieldCheckIcon,
   ViewGridIcon,
   XIcon,
@@ -42,8 +41,7 @@ const layanan = [
   },
 ]
 const callsToAction = [
-  { name: 'Video Penjelasan', href: '#', icon: PlayIcon },
-  { name: 'Hubungi Kami', href: '#', icon: PhoneIcon },
+  { name: 'Konsultasi Bisnis', href: '#', icon: PhoneIcon },
 ]
 
 function classNames(...classes) {

@@ -25,7 +25,7 @@ const TestimonialHome = () => (
                     <StaticImage 
                     src="../../images/adinda.png"
                     alt="Testimonial Adinda"
-                    className="w-16 h-16 rounded-full mr-3"
+                    className="w-12 h-12 rounded-full mr-3"
                     />
                     <p className="text-gray-800"><b>Agatha Putri</b> <br/> <span className="text-gray-600 text-sm">Owner Madame Cake</span></p>
                     </div>
@@ -54,7 +54,7 @@ const TestimonialHome = () => (
                     <StaticImage 
                     src="../../images/adinda.png"
                     alt="Testimonial Adinda"
-                    className="w-16 h-16 rounded-full mr-3"
+                    className="w-12 h-12 rounded-full mr-3"
                     />
                     <p className="text-gray-800"><b>Irwan Bayu</b> <br/> <span className="text-gray-600 text-sm">Co-Founder Kreasibangun</span></p>
                     </div>
@@ -83,7 +83,7 @@ const TestimonialHome = () => (
                     <StaticImage 
                     src="../../images/adinda.png"
                     alt="Testimonial Adinda"
-                    className="w-16 h-16 rounded-full mr-3"
+                    className="w-12 h-12 rounded-full mr-3"
                     />
                     <p className="text-gray-800"><b>Adinda Salsabila</b> <br/> <span className="text-gray-600 text-sm">Influencer</span></p>
                     </div>

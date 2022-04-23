@@ -7,6 +7,7 @@ import About from "../components/home/about"
 import Service from "../components/home/service"
 import Why from "../components/home/why"
 import Testimonial from "../components/home/testimonial"
+import CTAbottom from "../components/ctabottom"
 
 const IndexPage = () => (
   <Layout>
@@ -19,6 +20,7 @@ const IndexPage = () => (
     <Service />
     <Why />
     <Testimonial />
+    <CTAbottom />
   </Layout>
 )
 

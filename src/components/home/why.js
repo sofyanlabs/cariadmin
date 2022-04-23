@@ -38,7 +38,7 @@ const WhyHome = () => (
                             Kelola Tim Sendiri
                         </th>
                         <th scope="col" className="px-6 py-3 text-center">
-                            Admin <span className="text-blue-500">Cariadmin</span>
+                            Admin <span className="text-blue-600">Cariadmin</span>
                         </th>
                     </tr>
                 </thead>

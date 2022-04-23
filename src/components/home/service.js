@@ -92,7 +92,7 @@ const ServiceHome = () => (
           <h3 className="font-bold text-xl text-gray-800">{item.title}</h3>
           <p className="text-gray-600">{item.description}</p>
           <Link to={item.href}
-          className="block relative pl-12 font-bold text-gray-600 hover:text-blue-500 before:block before:w-10 before:h-1 before:rounded-xl before:bg-gray-600 before:absolute before:left-0 before:top-2/4 hover:before:bg-blue-500">
+          className="block relative pl-12 font-bold text-gray-600 hover:text-blue-600 before:block before:w-10 before:h-1 before:rounded-xl before:bg-gray-600 before:absolute before:left-0 before:top-2/4 hover:before:bg-blue-500">
           Lihat Selengkapnya
           </Link>
         </div>

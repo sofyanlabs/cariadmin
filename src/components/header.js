@@ -93,7 +93,7 @@ export default function Header ({ siteTitle })
             </Link>
           </div>
             <div className="-mr-2 -my-2 lg:hidden">
-              <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-blue-500 hover:text-blue-600 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500">
+              <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-blue-600 hover:text-blue-700 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-600">
                 <span className="sr-only">Open menu</span>
                 <MenuIcon className="h-6 w-6" aria-hidden="true" />
               </Popover.Button>
@@ -109,11 +109,11 @@ export default function Header ({ siteTitle })
                         'group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:text-blue-600'
                       )}
                     >
-                      <span>Layanan</span>
+                      <span className="text-lg">Layanan</span>
                       <ChevronDownIcon
                         className={classNames(
                           open ? 'text-gray-900' : 'text-gray-600',
-                          'ml-2 h-5 w-5 group-focus:text-blue-600'
+                          'ml-2 h-6 w-6 group-focus:text-blue-600'
                         )}
                         aria-hidden="true"
                       />
@@ -145,7 +145,7 @@ export default function Header ({ siteTitle })
                                 </a>
                             ))}
                           </div>
-                          <a href="/" className="px-5 py-5 bg-blue-500 text-lg flex justify-center hover:bg-blue-600 text-white font-medium leading-relaxed">
+                          <a href="/" className="px-5 py-5 bg-blue-600 text-lg flex justify-center hover:bg-blue-700 text-white font-medium leading-relaxed">
                             Konsultasi Bisnis Sekarang!
                           </a>
                         </div>
@@ -155,9 +155,9 @@ export default function Header ({ siteTitle })
                 )}
               </Popover>
             
-            <Link to="/" className="text-base font-medium text-gray-800 hover:text-blue-600">Tentang</Link>
-            <Link to="/" className="text-base font-medium text-gray-800 hover:text-blue-600">Bantuan</Link>
-            <Link to="/" className="text-base font-medium text-gray-800 hover:text-blue-600">Kontak</Link>
+            <Link to="/" className="text-lg font-medium text-gray-800 hover:text-blue-600">Tentang</Link>
+            <Link to="/" className="text-lg font-medium text-gray-800 hover:text-blue-600">Bantuan</Link>
+            <Link to="/" className="text-lg font-medium text-gray-800 hover:text-blue-600">Kontak</Link>
           </Popover.Group>
         </div>
       </div>
@@ -183,7 +183,7 @@ export default function Header ({ siteTitle })
                   />
                   </div>
                   <div className="-mr-2">
-                    <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500">
+                    <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-600">
                       <span className="sr-only">Close menu</span>
                       <XIcon className="h-6 w-6" aria-hidden="true" />
                     </Popover.Button>
@@ -212,7 +212,7 @@ export default function Header ({ siteTitle })
                 <div>
                   <a
                     href="/"
-                    className="w-full flex items-center justify-center px-4 py-2 rounded-lg shadow-lg shadow-blue-500 text-white font-medium bg-blue-500"
+                    className="w-full flex items-center justify-center px-4 py-2 rounded-lg shadow-lg shadow-blue-600 text-white font-medium bg-blue-600"
                   >
                     Cari Admin Professional
                   </a>

@@ -11,14 +11,14 @@ const WhyHome = () => (
       data-sal-duration="1000"
       data-sal-delay="100"
       className="bg-blue-50 py-16 px-4 rounded-5xl">
-        <div className="max-w-2xl mx-auto text-center">
+        <div className="max-w-3xl mx-auto text-center">
           <div
             className="pb-12"
             data-sal="slide-up"
             data-sal-duration="1000"
             data-sal-delay="300"
           >
-            <span className="block font-bold text-md md:text-xl text-blue-600">Keuntungan</span>
+            <span className="block font-medium text-md md:text-xl text-blue-600">Keuntungan</span>
             <h2 className="font-bold text-xl md:text-3xl py-4 !leading-relaxed text-gray-800"><span className="underline underline-offset-8 decoration-blue-600">#BangunBersama</span> Admin Profesional Cariadmin</h2>
             <p className="text-base text-gray-600 md:text-xl md:px-8">Cariadmin merupakan layanan admin professional terlengkap yang memberikan kemudahan dalam pengembangan bisnis online dengan biaya yang terjangkau.</p>
           </div> 

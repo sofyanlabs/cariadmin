@@ -9,7 +9,7 @@ const TestimonialHome = () => (
         data-sal-delay="100"
         className="text-center">
             <div className="pb-12">
-                <span className="block font-bold text-md md:text-xl text-blue-600">Testimonial</span>
+                <span className="block font-medium text-md md:text-xl text-blue-600">Testimonial</span>
                 <h2 className="font-bold text-xl md:text-3xl py-4 !leading-relaxed text-gray-800">Telah Dipercaya oleh Pembisnis Online</h2>
             </div>
         </div>

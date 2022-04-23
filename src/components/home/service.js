@@ -71,7 +71,7 @@ const ServiceHome = () => (
         data-sal-duration="1000"
         data-sal-delay="100"
       >
-        <span className="block font-bold text-md md:text-xl text-blue-600">Solusi Bisnis Online</span>
+        <span className="block font-medium text-md md:text-xl text-blue-600">Solusi Bisnis Online</span>
         <h2 className="font-bold text-xl md:text-3xl py-4 !leading-relaxed text-gray-800">Pilihan Layanan Terlengkap dan Terbaik untuk <span className="underline underline-offset-8 decoration-blue-600">Solusi Masalah Bisnis Online</span></h2>
       </div>
     </div>
@@ -89,10 +89,10 @@ const ServiceHome = () => (
           <div className="w-20">
             <item.image />
           </div>
-          <h3 className="font-bold text-xl text-gray-800">{item.title}</h3>
+          <h3 className="font-medium text-xl text-gray-800">{item.title}</h3>
           <p className="text-gray-600">{item.description}</p>
           <Link to={item.href}
-          className="block relative pl-12 font-bold text-gray-600 hover:text-blue-600 before:block before:w-10 before:h-1 before:rounded-xl before:bg-gray-600 before:absolute before:left-0 before:top-2/4 hover:before:bg-blue-500">
+          className="block relative pl-12 font-medium text-gray-600 hover:text-blue-600 before:block before:w-10 before:h-1 before:rounded-xl before:bg-gray-600 before:absolute before:left-0 before:top-2/4 hover:before:bg-blue-500">
           Lihat Selengkapnya
           </Link>
         </div>

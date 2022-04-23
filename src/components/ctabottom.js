@@ -13,7 +13,7 @@ const CTAbottom = () => (
                     <h2 className="text-xl lg:text-3xl font-bold !leading-tight tracking-wide">Mulai #BangunBersama Bisnismu Hari Ini.</h2>
                 </div>
                 <Link to="/"
-                className="inline-block px-8 py-4 rounded-lg shadow-2xl text-blue-600 bg-white transition duration-500 ease-in-out hover:-translate-y-1"
+                className="inline-block px-8 py-4 rounded-lg shadow-2xl font-medium text-blue-600 bg-white transition duration-500 ease-in-out hover:-translate-y-1"
                 >
                     Konsultasi Sekarang
                 </Link>

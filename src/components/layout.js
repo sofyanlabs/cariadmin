@@ -41,7 +41,7 @@ const Layout = ({ children }) => {
                 <p className="text-gray-500 max-w-xs">Cariadmin merupakan penyedia layanan admin professional terbaik untuk membantu dan meningkatkan usaha bisnis online di indonesia.</p>
             </div>
             <div>
-              <span className="font-bold inline-block pb-4 text-lg text-gray-800">Layanan</span>
+              <span className="font-medium inline-block pb-4 text-lg text-gray-800">Layanan</span>
               <ul className="space-y-2 text-gray-600">
                 <li>
                   <Link to="/" className="hover:text-blue-600">Marketplace</Link>
@@ -64,7 +64,7 @@ const Layout = ({ children }) => {
               </ul>
             </div>
             <div>
-              <span className="font-bold inline-block pb-4 text-lg text-gray-800">Perusahaan</span>
+              <span className="font-medium inline-block pb-4 text-lg text-gray-800">Perusahaan</span>
               <ul className="space-y-2 text-gray-600">
                 <li>
                   <Link to="/" className="hover:text-blue-600">Tentang</Link>
@@ -81,7 +81,7 @@ const Layout = ({ children }) => {
               </ul>
             </div>
             <div>
-              <span className="font-bold inline-block pb-4 text-lg text-gray-800">Bantuan</span>
+              <span className="font-medium inline-block pb-4 text-lg text-gray-800">Bantuan</span>
               <ul className="space-y-2 text-gray-600 text-sm">
                 <li>
                   <b>E-mail</b> <br />

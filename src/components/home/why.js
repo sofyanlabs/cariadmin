@@ -6,11 +6,7 @@ import {
 
 const WhyHome = () => (
     <section className="max-w-7xl mx-auto px-4 sm:px-6 py-8 lg:py-12">
-      <div
-      data-sal="fade"
-      data-sal-duration="1000"
-      data-sal-delay="100"
-      className="bg-blue-50 py-16 px-4 rounded-5xl">
+      <div className="bg-blue-50 py-16 px-4 rounded-5xl">
         <div className="max-w-3xl mx-auto text-center">
           <div
             className="pb-12"

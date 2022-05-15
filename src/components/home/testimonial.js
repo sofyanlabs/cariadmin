@@ -23,8 +23,8 @@ const TestimonialHome = () => (
                 <div className="flex items-center justify-between pb-4">
                     <div className="flex items-center">
                     <StaticImage 
-                    src="../../images/adinda.png"
-                    alt="Testimonial Adinda"
+                    src="../../images/agatha.jpg"
+                    alt="Testimonial Agatha"
                     className="w-12 h-12 rounded-full mr-3"
                     />
                     <p className="text-gray-800"><b>Agatha Putri</b> <br/> <span className="text-gray-600 text-sm">Owner Madame Cake</span></p>
@@ -52,8 +52,8 @@ const TestimonialHome = () => (
                 <div className="flex items-center justify-between pb-2">
                     <div className="flex items-center">
                     <StaticImage 
-                    src="../../images/adinda.png"
-                    alt="Testimonial Adinda"
+                    src="../../images/irwan.jpg"
+                    alt="Testimonial Irwan"
                     className="w-12 h-12 rounded-full mr-3"
                     />
                     <p className="text-gray-800"><b>Irwan Bayu</b> <br/> <span className="text-gray-600 text-sm">Co-Founder Kreasibangun</span></p>

@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
 const HeroHome = () => (
-    <section className="max-w-7xl mx-auto px-4 sm:px-6 pt-8 pb-16 lg:py-32">
+    <section className="max-w-7xl mx-auto px-4 sm:px-6 py-8 lg:py-12">
         <div className="flex flex-wrap items-center">
             <div 
                 className="w-full lg:w-1/2 md:pr-10 mb-20 lg:mb-0"
@@ -13,11 +13,11 @@ const HeroHome = () => (
             >
 
                 <h1 className="text-4xl md:text-5xl xl:text-6xl !leading-tight font-bold text-gray-800 mb-4">Kini Kembangkan Bisnis Jadi Lebih Mudah</h1>
-                <p className="text-base md:text-xl text-gray-600 mb-12 max-w-lg">Bangun bisnis online bersama admin professional dari Cariadmin. Nikmati kemudahan, hemat waktu dan biaya hingga jutaan rupiah!</p>
+                <p className="text-base md:text-xl text-gray-600 mb-12 max-w-lg">Bangun bisnis online bersama admin profesional dari Cariadmin. Nikmati kemudahan, hemat waktu dan biaya hingga jutaan rupiah!</p>
                 <Link to="/"
                 className="inline-block px-6 py-4 rounded-lg shadow-2xl font-medium text-white shadow-blue-600 bg-blue-600 transition duration-500 ease-in-out hover:-translate-y-1"
                 >
-                    Cari Admin Professional
+                    Cari Admin Profesional
                 </Link>
                 
             </div>

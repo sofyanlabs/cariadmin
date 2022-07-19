@@ -38,7 +38,7 @@ const Layout = ({ children }) => {
                   alt="CariLogo"
                 />
                 <h3 className="sr-only">Cariadmin</h3>
-                <p className="text-gray-500 max-w-xs">Cariadmin merupakan penyedia layanan admin professional terbaik untuk membantu dan meningkatkan usaha bisnis online di indonesia.</p>
+                <p className="text-gray-500 max-w-xs">Cariadmin merupakan penyedia layanan admin profesional terbaik untuk membantu dan meningkatkan usaha bisnis online di indonesia.</p>
             </div>
             <div>
               <span className="font-medium inline-block pb-4 text-lg text-gray-800">Layanan</span>

@@ -21,35 +21,35 @@ const layanan = [
   {
     name: 'Admin Marketplace',
     description: 'Optimasi Toko Online',
-    href: '/',
+    href: '/layanan/jasa-admin-marketplace',
     icon: ShoppingBagIcon,
   },
   {
     name: 'Admin Social Media',
     description: 'Manajemen Sosial Media',
-    href: '/',
+    href: '/layanan/jasa-admin-sosial-media',
     icon: TemplateIcon,
   },
   { name: 'Admin Website', 
     description: "Pembuatan Website Profesional", 
-    href: '/', 
+    href: '/layanan/jasa-admin-website', 
     icon: GlobeAltIcon },
   {
     name: 'Admin Digital Marketing',
     description: "Manajemen iklan digital",
-    href: '/',
+    href: '/layanan/jasa-admin-digital-marketing',
     icon: PresentationChartLineIcon,
   },
   {
     name: 'Admin Desain Grafis',
     description: "Solusi Desain Profesional",
-    href: '/',
+    href: '/layanan/jasa-admin-desain-grafis',
     icon: SparklesIcon,
   },
   {
     name: 'Admin Foto Produk',
     description: "Jasa Foto Produk",
-    href: '/',
+    href: '/layanan/jasa-admin-foto-produk',
     icon: CameraIcon,
   },
 ]
@@ -127,9 +127,9 @@ export default function Header ({ siteTitle })
                         <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                           <div className="relative grid grid-cols-2 gap-6 bg-white px-5 py-6 sm:p-8">
                             {layanan.map((item) => (
-                                <a
+                                <Link
                                   key={item.name}
-                                  href={item.href}
+                                  to={item.href}
                                   className="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50"
                                 >
                                   <item.icon className="flex-shrink-0 h-8 w-8 text-blue-600" aria-hidden="true" />
@@ -137,7 +137,7 @@ export default function Header ({ siteTitle })
                                     <p className="text-base font-medium text-gray-900">{item.name}</p>
                                     <p className="mt-1 text-sm text-gray-500">{item.description}</p>
                                   </div>
-                                </a>
+                                </Link>
                             ))}
                           </div>
                           <a href="/" className="px-5 py-5 bg-blue-600 text-lg flex justify-center hover:bg-blue-700 text-white font-medium leading-relaxed">
@@ -151,7 +151,6 @@ export default function Header ({ siteTitle })
               </Popover>
             
             <Link to="/" className="text-lg font-medium text-gray-800 hover:text-blue-600">Tentang</Link>
-            <Link to="/" className="text-lg font-medium text-gray-800 hover:text-blue-600">Bantuan</Link>
             <Link to="/" className="text-lg font-medium text-gray-800 hover:text-blue-600">Kontak</Link>
           </Popover.Group>
         </div>
@@ -187,14 +186,14 @@ export default function Header ({ siteTitle })
                 <div className="mt-6">
                   <nav className="grid md:grid-cols-2 gap-y-8">
                     {layanan.map((item) => (
-                      <a
+                      <Link
                         key={item.name}
-                        href={item.href}
+                        to={item.href}
                         className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
                       >
                         <item.icon className="flex-shrink-0 h-6 w-6 text-blue-600" aria-hidden="true" />
                         <span className="ml-3 text-base font-medium text-gray-900">{item.name}</span>
-                      </a>
+                      </Link>
                     ))}
                   </nav>
                 </div>

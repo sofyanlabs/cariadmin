@@ -5,7 +5,7 @@ import {
 
 const CTAkonsul = () => (
     <div 
-    data-sal="fade"
+    data-sal="slide-up"
     data-sal-duration="500"
     data-sal-delay="300"
     className="mt-12 text-center">

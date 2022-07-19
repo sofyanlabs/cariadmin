@@ -18,15 +18,15 @@ const services = [
     image: Marketplace,
     title: 'Marketplace',
     description: 'Optimasi toko di marketplace seperti peningkatan layanan chat ke pelanggan hingga iklankan produk.',
-    href: '#',
+    href: '/layanan/jasa-admin-marketplace',
   },
   {
     id:'2',
     delay: '300',
     image: SocialMedia,
-    title: 'Social Media',
+    title: 'Sosial Media',
     description: 'Pengelolaan dan manajemen akun Sosial Media untuk meningkatkan minat dan jangkauan pembeli.',
-    href: '#',
+    href: '/layanan/jasa-admin-sosial-media',
   },
   {
     id:'3',
@@ -34,7 +34,7 @@ const services = [
     image: Website,
     title: 'Website',
     description: 'Pembuatan dan pengelolaan website profesional dengan teknologi serta desain terkini.',
-    href: '#',
+    href: '/layanan/jasa-admin-website',
   },
   {
     id:'4',
@@ -42,7 +42,7 @@ const services = [
     image: Marketing,
     title: 'Digital Marketing',
     description: 'Pengelolaan dan optimasi strategi iklan digital untuk meningkatkan jangkauan pembeli.',
-    href: '#',
+    href: '/layanan/jasa-admin-digital-marketing',
   },
   {
     id:'5',
@@ -50,7 +50,7 @@ const services = [
     image: Desain,
     title: 'Desain Grafis',
     description: 'Pembuatan kebutuhan desain grafis profesional untuk meningkatkan branding usaha.',
-    href: '#',
+    href: '/layanan/jasa-admin-desain-grafis',
   },
   {
     id:'6',
@@ -58,7 +58,7 @@ const services = [
     image: Foto,
     title: 'Foto Produk',
     description: 'Pembuatan foto produk yang menarik dan berkualitas untuk katalog produk secara digital.',
-    href: '#',
+    href: '/layanan/jasa-admin-foto-produk',
   },
 ]
 

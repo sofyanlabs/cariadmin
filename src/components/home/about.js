@@ -13,7 +13,7 @@ const AboutHome = () => (
           >
             <span className="block font-medium text-md md:text-xl text-blue-600">Apa itu Cariadmin?</span>
             <h2 className="font-bold text-xl md:text-3xl py-4 !leading-relaxed text-gray-800">Penyedia Layanan <span className="underline underline-offset-8 decoration-blue-600">Admin Profesional Terlengkap</span></h2>
-            <p className="text-base text-gray-600 md:text-xl md:px-8">Kami akan memberikanmu admin professional yang terbaik di bidangnya. Pilihan admin yang tepat akan sangat meningkatkan kinerja pada bisnis online yang kamu miliki.</p>
+            <p className="text-base text-gray-600 md:text-xl md:px-8">Kami akan memberikanmu admin profesional yang terbaik di bidangnya. Pilihan admin yang tepat akan sangat meningkatkan kinerja pada bisnis online yang kamu miliki.</p>
           </div>
           <div
             data-sal="slide-left"
